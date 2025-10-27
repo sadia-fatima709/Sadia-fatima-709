@@ -1,0 +1,197 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <img src="https://edube.org/uploads/media/default/0001/03/mountain_landscape.jpg" alt="Mountain landscape" width="340" height="250">
+     <br>  
+  <a href="https://www.example.com/">Visit our website</a>
+     <br> 
+  <a href="mailto:info@example.com">Email Us</a>
+     <br>
+  <a href="tel:123-456-7890">Call us at 123-456-7890</a>
+     <br>
+  <a href="https://example.com/document.pdf" download="my-document.pdf">Download my document</a>
+  <br>
+  <a href="https://example.com/stylesheet.css" rel="stylesheet">Link to stylesheet</a>
+  <br>
+  <br>
+  <video src="myvideo.mp4" controls autoplay>
+   Your browser does not support the video tag.
+</video>
+<br>
+<br>
+ Video Example -->
+<!-- <video controls>
+   <source src="myvideo.mp4" type="video/mp4">
+   <source src="myvideo.webm" type="video/webm">
+   <p>Your browser does not support the video tag.</p>
+</video>
+<br>
+<br> -->
+<!-- Audio Example -->
+<!-- <audio controls>
+   <source src="myaudiofile.mp3" type="audio/mp3">
+   <source src="myaudiofile.ogg" type="audio/ogg">
+   <p>Your browser does not support the audio tag.</p>
+</audio>
+<br>
+<br>
+<br>
+<video poster="web-dev-picture.jpg" controls>
+  <source src="web-dev-video.mp4" type="video/mp4" media="(max-width: 600px)">
+  <source src="web-dev-video.webm" type="video/webm">
+</video>
+<br> -->
+<!-- <br>
+<br>
+<label for="FirstName">FirstName:</label>
+<input type="FirstName" id="FirstName" name="userName" required>
+<br>
+<br>
+<br>
+<label for="LastName">LastName:</label>
+<input type="LastName" id="LastName" name="userName" required>
+<br>
+<br>
+<br>
+<label for="email">Email:</label>
+<input type="email" id="email" name="useremail" required>
+<br>
+<br>
+<br>
+<label for="password">password:</label>
+<input type="password" id="password" name="password" required>
+<br>
+<br>
+<br>
+<label for="message">Message:</label>
+<textarea id="message" name="message" rows="4" cols="50"></textarea>
+
+<br>
+<br>
+<br>
+<br>
+<label for="pasta">Pasta:</label>
+<select id="pasta" name="pasta">
+  <option value="spaghetti">Spaghetti</option>
+  <option value="penne">Penne</option>
+  <option value="lasagna">Lasagna</option>
+  <option value="farfalle">Farfalle</option>
+</select>
+
+<br>
+<br>
+<br>
+<br>
+<button type="button" onclick="alert('Hello, World!')">Click me!</button>
+
+<br>
+<br>
+<br>
+<fieldset>
+  <legend>Shipping Address</legend>
+  <label for="address">Address:</label>
+  <input type="text" id="address" name="address">
+  <br>
+  <label for="city">City:</label>
+  <input type="text" id="city" name="city">
+  <br>
+  <label for="zip-code">ZIP Code:</label>
+  <input type="text" id="zip-code" name="zip-code">
+</fieldset>
+
+<br>
+<br>
+<br>
+<label for="first-name">First Name:</label>
+<input type="text" id="first-name" name="first-name" value="John">
+<br>
+<br>
+<br>
+<label for="email">Email:</label>
+<input type="email" id="email" name="email" placeholder="name@example.com">
+<br>
+<br>
+<br>
+<label for="username">Username:</label>
+<input type="text" id="username" name="username" value="JohnDoe" disabled>
+<br>
+<br>
+<br>
+<input type="text" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+
+
+<br>
+<br>
+<br>
+<form action="/submit" method="POST">
+  <label for="username">Username:</label>
+  <input type="text" id="username" name="username" required>
+  <br>
+  
+  <label for="password">Password:</label>
+  <input type="password" id="password" name="password" required>
+  <br>
+  
+  <input type="submit" value="Login">
+  <input type="reset" value="Reset">
+</form>
+
+
+
+<br>
+<br>
+<br>
+<form action="/submit-contact" method="post">
+  <label for="name">Name:</label>
+  <input type="text" id="name" name="name" required>
+  <br>
+  
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email" required>
+  <br>
+  
+  <label for="message">Message:</label>
+  <textarea id="message" name="message" required></textarea>
+  <br>
+  
+  <button type="submit">Send</button>
+</form>
+
+<br>
+<br>
+<br>
+<form action="/submit" method="POST">
+  <label for="name">Full Name:</label>
+  <input type="text" id="name" name="name" required>
+  <br>
+  
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email" required>
+  <br>
+  
+  <p>Choose your meal preference:</p>
+  <label for="vegetarian">Vegetarian</label>
+  <input type="radio" id="vegetarian" name="meal" value="vegetarian" required>
+  <label for="non-vegetarian">Non-Vegetarian</label>
+  <input type="radio" id="non-vegetarian" name="meal" value="non-vegetarian" required>
+  <br>
+  
+  <p>Select the workshops you'd like to attend:</p>
+  <label for="workshop1">Workshop 1</label>
+  <input type="checkbox" id="workshop1" name="workshop1">
+  <label for="workshop2">Workshop 2</label>
+  <input type="checkbox" id="workshop2" name="workshop2">
+  <label for="workshop3">Workshop 3</label>
+  <input type="checkbox" id="workshop3" name="workshop3">
+  <br>
+  
+  <input type="submit" value="Register">
+</form>
+
+</body>
+</html>  -->
