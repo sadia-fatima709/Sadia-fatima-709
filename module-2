@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Embark on a culinary adventure with Taste of Travel, exploring global flavors and recipes.">
+    <title>Taste of Travel</title>
+</head>
+<body>
+    <h1>Embark on a Culinary Adventure</h1>
+    
+    <h2>Discover the Flavors of Thailand</h2>
+    <h3>Tom Yum Goong: A Spicy Thai Delight</h3>
+    
+    <p>Tom Yum Goong is a classic Thai soup renowned for its bold flavors and aromatic spices. This hot and sour soup features a tantalizing blend of lemongrass, galangal, and kaffir lime leaves, combined with succulent shrimp.</p>
+    
+    <blockquote>
+        <p><q>The key to a delicious Tom Yum Goong lies in the balance of flavors – sweet, sour, salty, and spicy.</q></p>
+        <footer>- Chef Somchai, Thai Cuisine Expert</footer>
+    </blockquote>
+    
+    <h3>Ingredients:</h3>
+    <ul>
+        <li><strong>Lemongrass:</strong> 2 stalks</li>
+        <li><strong>Thai Basil:</strong> 1 cup</li>
+        <li><strong>Kaffir Lime Leaves:</strong> 3 leaves</li>
+        <li><strong>Shrimp:</strong> 500g</li>
+    </ul>
+    
+    <h3>Preparation:</h3>
+    <ol>
+        <li><em>Simmer the broth for 10 minutes.</em></li>
+        <li><em>Add lemongrass, galangal, and kaffir lime leaves.</em></li>
+        <li><em>Stir in shrimp and cook until pink.</em></li>
+        <li><em>Season with fish sauce, lime juice, and chili paste.</em></li>
+        <li><em>Garnish with Thai basil and serve hot.</em></li>
+    </ol>
+    
+    <h3>Cooking Tips:</h3>
+    <ul>
+        <li><sup>1/4</sup> cup of fish sauce adds authentic Thai flavor.</li>
+        <li><sub>1</sub> tablespoon of chili paste gives the soup its signature heat.</li>
+    </ul>
+    
+    <img src="https://edube.org/uploads/media/default/0001/04/thai-soup.jpg" alt="Tom Yum Goong">
+    <br><br>
+    
+    <table>
+        <caption>Recipe Details</caption>
+        <tr>
+            <th>Ingredient</th>
+            <th>Quantity</th>
+        </tr>
+        <tr>
+            <td>Lemongrass</td>
+            <td>2 stalks</td>
+        </tr>
+        <tr>
+            <td>Thai Basil</td>
+            <td>1 cup</td>
+        </tr>
+        <tr>
+            <td>Kaffir Lime Leaves</td>
+            <td>3 leaves</td>
+        </tr>
+        <tr>
+            <td>Shrimp</td>
+            <td>500g</td>
+        </tr>
+        <tr>
+            <td colspan="2"><strong>Preparation Time:</strong> 20 minutes</td>
+        </tr>
+        <tr>
+            <td colspan="2"><strong>Serving Suggestions:</strong> Serve with steamed rice or jasmine tea.</td>
+        </tr>
+    </table>
+    
+</body>
+</html>
