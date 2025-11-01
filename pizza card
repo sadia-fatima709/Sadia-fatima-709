@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+  <head>
+    <link href="styles.css" rel="stylesheet" />
+    <title>Mineo's Pizza House</title>
+    <style>
+    body {
+  font-family: "Chalkduster", fantasy;
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  text-align: center;
+}
+
+main {
+  background-color: tomato;
+  width: 70%;
+  margin: auto;
+  position: relative;
+  border-radius: 5px;
+  margin-top: 50px;
+}
+
+#hero-copy {
+  padding: 5px;
+}
+
+#hero-img > figure > img {
+  width: 70%;
+  border-radius: 10px;
+}
+
+footer {
+  background-color: lightgreen;
+  height: 100px;
+}
+
+footer > p {
+  padding: 37px;
+}
+</style>
+  </head>
+  <body>
+    <main>
+      <section id="hero-copy">
+        <h1>Mineo's Pizza House</h1>
+      </section>
+      <section id="hero-img">
+        <figure>
+          <img src="https://mineospizza.com/uploads/3/5/8/4/35845369/img-0307_orig.jpg" alt="A small, 8-cut pepperoni pizza." width="250" />
+        </figure>
+      </section>
+      <footer>
+        <p>A Pittsburgh family tradition since 1958</p>
+      </footer>
+    </main>
+  </body>
+</html>
