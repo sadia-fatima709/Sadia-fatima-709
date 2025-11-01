@@ -1,0 +1,26 @@
+<!-- Write code below 💖 -->
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+  <h1>Shigeru Miyamoto
+宮本 茂</h1>
+    <img alt="A man live in japan " src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Shigeru_Miyamoto_20150610.jpg/120px-Shigeru_Miyamoto_20150610.jpg" width="250" >
+ <p> Shigeru Miyamoto (Japanese: 宮本 茂, Hepburn: Miyamoto Shigeru; born November 16, 1952) is a Japanese video game designer, producer and game director at Nintendo, 
+   where he has served as one of its representative directors as an executive since 2002.
+    Widely regarded as one of the most accomplished and influential designers in video games,
+   he is the creator of some of the most acclaimed and best-selling game franchises of all time, including Mario, The Legend of Zelda, Donkey Kong, Star Fox and Pikmin.
+    More than 1 billion copies of games featuring franchises created by Miyamoto have been sold.
+Born in Sonobe, Kyoto, Miyamoto graduated from Kanazawa Municipal College of Industrial Arts.
+ He originally sought a career as a manga artist, until developing an interest in video games.</p> 
+  <ol type="a">
+  <li>Power ⚡</li>
+  <li>Courage 🔥</li>
+  <li>Wisdom 🦉</li>
+  <ol type="i">
+  <li>Power ⚡</li>
+  <li>Courage 🔥</li>
+  <li>Wisdom 🦉</li>
+</ol>
+</ol>
