@@ -3,3 +3,136 @@ const marsWeight = earthWeight * 0.38;
 
 console.log("Your weight on Earth is " + earthWeight + " pounds.");
 console.log("Your weight on Mars is " + marsWeight + " pounds.");
+
+//-------------------------------------------------------------
+
+
+// Write code below 💖
+let num = Math.random();
+
+if (num > 0.5) {
+  console.log("Heads");
+} else {
+  console.log("Tails");
+}
+
+
+
+console.log(Number(42));  //  ->  42
+   
+console.log(Number("11"));  //  ->  11
+console.log(Number("0x11"));  //  ->  17
+console.log(Number("0o11"));  //  ->  9
+console.log(Number("0b11"));  //  ->  3
+console.log(Number("12e3"));  //    ->  12000
+console.log(Number("Infinity"));//  ->  Infinity
+console.log(Number("text"));  //  ->  NaN
+   
+console.log(Number(14n));  //  ->  14
+console.log(Number(123456789123456789123n));  //  -  >    123456789123
+456800000
+   
+console.log(Number(true));  //  ->  1
+console.log(Number(false));  //  ->  0
+   
+console.log(Number(undefined));  //    ->  NaN
+   
+console.log(Number(null));//  ->  0
+
+
+
+
+
+let b1 = true;
+let b2 = Boolean(true);
+
+let n1 = 100;
+let n2 = Number(200);
+
+let bi1 = 100n;
+let bi2 = BigInt(200);
+
+let s1 = "Hello";
+let s2 = String("Hello");
+
+let u1 = undefined;
+
+
+console.log(`${b1} [${typeof b1}]`);
+console.log(`${b2} [${typeof b2}]`);
+console.log(`${n1} [${typeof n1}]`);
+console.log(`${n2} [${typeof n2}]`);
+console.log(`${bi1} [${typeof bi1}]`);
+console.log(`${bi2} [${typeof bi2}]`);
+console.log(`${s1} [${typeof s1}]`);
+console.log(`${s2} [${typeof s2}]`);
+console.log(`${u1} [${typeof u1}]`);
+
+
+
+let b = Boolean( BigInt(Number("1234")));
+console.log(`${b} [${typeof b}]`);
+
+// or
+
+let s = "1234";
+let n = Number(s);
+let bi = BigInt(n);
+let b = Boolean(bi);
+console.log(`${b} [${typeof b}]`);
+
+
+
+
+let b = true + false;
+let n = 100 + 200;
+let bi = 100n + 200n;
+let s = "He" + "llo";
+let u = undefined + undefined;
+
+console.log(`${b} [${typeof b}]`); // !!! number 
+console.log(`${n} [${typeof n}]`);
+console.log(`${bi} [${typeof bi}]`);
+console.log(`${s} [${typeof s}]`);
+console.log(`${u} [${typeof u}]`); // !!! number
+
+
+
+
+
+let b1 = true + 100; 
+// let b2 = true + 100n; // -> error!
+let b3 = true + "100"; 
+// let n1 = 100 + 200n; // -> error!
+let n2 = 100 + true;
+let n3 = 100 + "200";
+// let bi1 = 100n + 200;  // -> error!
+// let bi2 = 100n + true  // -> error!
+let bi3 = 100n + "200"; 
+let s1 = "100" + 200;
+let s2 = "100" + 200n;
+let s3 = "100" + true;
+let s4 = "abc" + 200;
+let s5 = "abc" + 200n;
+let s6 = "abc" + true;
+
+console.log(`${b1} [${typeof b1}]`);    // -> 101 [number]
+// console.log(`${b2} [${typeof b2}]`);
+console.log(`${b3} [${typeof b3}]`);    // -> true100 [string]
+// console.log(`${n1} [${typeof n1}]`);
+console.log(`${n2} [${typeof n2}]`);    // -> 101 [number]
+console.log(`${n3} [${typeof n3}]`);    // -> 100200 [string]
+// console.log(`${bi1} [${typeof bi1}]`);
+// console.log(`${bi2} [${typeof bi2}]`);
+console.log(`${bi3} [${typeof bi3}]`);  // -> 100200 [string]
+console.log(`${s1} [${typeof s1}]`);    // -> 100200 [string]
+console.log(`${s2} [${typeof s2}]`);    // -> 100200 [string]
+console.log(`${s3} [${typeof s3}]`);    // -> 100true [string]
+console.log(`${s4} [${typeof s4}]`);    // -> abc200 [string]
+console.log(`${s5} [${typeof s5}]`);    // -> abc200 [string]
+console.log(`${s6} [${typeof s6}]`);    // -> abctrue [string]
+
+
+
+
+const str1 = 42 + +"1";
