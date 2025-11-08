@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javascript</title>
+</head>
+<body>
+    
+    <script>
+        var day = 5;
+        if (day >= 1 && day <= 4){
+        console.log("Not Friday, yet!");
+    }else if(day === 5) {
+  console.log("Thank God It's Friday🕺");
+    }else if (day === 6 || day === 7)
+    {
+    console.log("Yay, weekends! 🙌");
+    }else{
+  console.log("Wait, what day is it?");
+}
+
+    </script>
+</body>
+</html>

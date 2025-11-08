@@ -1,0 +1,197 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javascript</title>
+</head>
+<body>
+    
+    <script> 
+//         var day = 5;
+//         if (day >= 1 && day <= 4){
+//         console.log("Not Friday, yet!");
+//     }else if(day === 5) {
+//   console.log("Thank God It's Friday🕺");
+//     }else if (day === 6 || day === 7)
+//     {
+//     console.log("Yay, weekends! 🙌");
+//     }else{
+//   console.log("Wait, what day is it?");
+// }
+
+
+
+// let myNumber = 15;
+// console.log(myNumber);
+// const PI = 3.1415;
+// console.log(PI);
+
+// // Write code below 💖
+// console.log("🚌 Greyhound to New York");
+// console.log("🕥 Departs at 9:30 am");
+// console.log("   a   ");
+// console.log("  b c   ");
+// console.log(" d e f  ");
+// console.log("g h i j ");
+// console.log("   k   ");
+
+
+
+
+// function getSecondLargest(nums) {
+//     // Complete the function
+//     nums.sort((a,b) => a-b )
+// const c = [...new Set(nums)]
+// return c.at(-2)
+// }
+
+
+
+// function Rectangle(a, b) {
+//      const object = {
+//     length: a,
+//     width: b,
+//     perimeter: 2 * (a + b),
+//     area: a * b,
+//   };
+
+//   return object;
+// }
+
+
+
+// function getCount(objects) { 
+//     let count = 0;
+//     for (const {x, y} of objects) {
+//         if (x === y) count++;
+//     }
+//     return count;
+// }
+
+
+
+// class Polygon {
+//     constructor(sideLenghts){
+//         this.sides = sideLenghts;
+//     }
+    
+//     perimeter(){
+//         let sum = 0;
+//         for (let side of this.sides) {
+//             sum += side;
+//         }
+//         return sum;
+//     }
+// }
+
+
+
+// function sides(literals, ...expressions) {
+//      const A = expressions[0];
+//     const P = expressions[1];
+    
+//     const s1 = (P + Math.sqrt((P * P) - (16 * A)))/4;
+//     const s2 = (P - Math.sqrt((P * P) - (16 * A)))/4;
+    
+//     return [s1, s2].sort((a, b) => a - b);
+// }
+
+
+
+// My favorite dish: Fettuccine Alfredo
+// Brandon
+
+// console.log("Ingredients:");
+// console.log("🍝 1 lb fettuccine pasta");
+// console.log("🧈 1/2 cup butter");
+// console.log("🧀 1 cup grated Parmesan cheese");
+// console.log("🌿 Fresh parsley, chopped (optional)\n");
+
+// console.log("Instructions:");
+// console.log("1. Cook the fettuccine until al dente. Drain and set aside.");
+// console.log("2. In a large skillet, melt the butter over medium heat.");
+// console.log("3. Stir in the grated Parmesan cheese until the sauce is creamy.");
+// console.log("4. Add the cooked fettuccine to the sauce and toss to coat evenly.");
+// console.log("5. Serve hot, garnished with fresh parsley if desired.");
+
+/* 
+Secret Ingredient 🤫:
+A squeeze of fresh lemon juice brightens the dish 
+and adds a subtle tang that complements the richness of the sauce.
+*/
+
+
+
+// Write code below 💖
+
+// console.log("Congrats! You've made it.");
+// console.log("==================================");
+// console.log("         McDONALD'S RECEIPT       ");
+// console.log("----------------------------------");
+// console.log("           Order Details        ");
+// console.log("----------------------------------");
+// console.log("Item           Quantity   Price   ");
+// console.log("----------------------------------");
+// console.log(" 🍔 Burger       1          2.99 ");
+// console.log(" 🍟 Fries        1          2.49  ");
+// console.log(" 🥤 Soda         1          1.99  ");
+// console.log("----------------------------------");
+// console.log("  Total                      7.47");
+// console.log("==================================");
+
+
+
+
+
+// const firstName = "Jane";
+// const favoriteColor = "Purple 💜";
+
+// let currentLocation = "New York 🗽";
+// let mood = "Chill";
+
+// console.log("My Profile: ");
+// console.log(firstName);
+// console.log(favoriteColor);
+// console.log(currentLocation);
+// console.log(mood);
+
+// currentLocation = "Chicago 🌬️";
+// mood = "Thrilled";
+// console.log(currentLocation);
+// console.log(mood);
+
+
+
+// print temperature
+// Write code below 💖
+// const fahrenheit = 59;
+// const value = 32;
+//  let total = (fahrenheit - value);
+//  let divide = total / 1.8;
+//  console.log(divide);
+
+
+
+
+// Write code below 💖
+// let weight = 92.3;
+// let height = 1.86;
+
+// let bmi = weight / (height**2);
+
+// console.log(bmi);
+
+
+
+
+// function math(num1, num2) {
+//     // Write your code below this line
+//     console.log(num1 + num2);
+//     console.log(Math.min(num1, num2));
+//     console.log(Math.pow(num1, 2));
+// }
+
+    </script>
+</body>
+</html> 
