@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+     <head></head>
+     <body>
+      <input id="myId" type="text"></input>
+      <button onClick="console.log(document.getElementById('myId').value)">Get Text</button>
+<script>
+alert("Hello, World!")
+window.alert("Hello, World! for the second time");
+ 
+alert(4 * 7);
+alert(true);
+ 
+alert("text 1", "text 2"); // only "text 1" will be displayed
+
+------------------------------------------------------------------------------------
+let decision = window.confirm("Is it OK?");
+console.log(decision);
+---------------------------------------------------------------------------------
+let remove = confirm("Remove all data?");
+let message = remove ? "Deleting Data" : "Cancelled"
+ 
+console.log(message);
+---------------------------------------------------------------------------------
+let name = window.prompt("What is your name?", "John Doe");
+name = name ? name : "anonymous";
+ 
+let age = prompt("Hello " + name + " how old are you?");
+alert(name + " is " + age + " years old");
+-----------------------------------------------------------------------------------
+let width = prompt("Volume of the box, enter width", 0);
+let height = prompt("Volume of the box, enter height", 0);
+let length = prompt("Volume of the box, enter length", 0);
+let volume = width * height * length;
+alert(`Calculated box volume is ${volume}`);
+-------------------------------------------------------------------------------
+let n = 2 * 3 ** 3 - 1;
+---------------------------------------------------------------------------
+let n = 10;
+let m = ++n;
+-----------------------------------------------------------------------------
+let nr = "1";
+let x = (nr === 1);
+let y = (nr == 1);
+let z = (nr = 1);
+--------------------------------------------------------------------------
+
+</script> 
+</body>
+</html>

@@ -1,0 +1,289 @@
+const name = "Alice";
+console.log(name); // -> Alice
+-------------------------------------------------
+let year = 2050;
+let newYear = year = 2051;
+--------------------------------------------------
+let year = 2050;
+year = 2051;
+let newYear = year;
+--------------------------------------------------
+let year = 2050;
+year = 2051;
+let newYear = year;
+----------------------------------------------------
+const x = 5;
+const y = 2;
+ 
+console.log("addition: ", x + y); // -> 7
+console.log("subtraction: ", x - y); // -> 3
+console.log("multiplication: ", x * y); // -> 10
+console.log("division: ", x / y); // -> 2.5
+console.log("division remainder :", x % y); // -> 1
+console.log("exponent: ", x ** y); // -> 25
+-------------------------------------------------------
+let str = "123";
+let n1 = +str;
+let n2 = -str;
+let n3 = -n2;
+let n4 = +"abcd";
+ 
+console.log(`${str} : ${typeof str}`); // -> 123 : string
+console.log(`${n1} : ${typeof n1}`); // -> 123 : number
+console.log(`${n2} : ${typeof n2}`); // -> -123 : number
+console.log(`${n3} : ${typeof n3}`); // -> 123 : number
+console.log(`${n4} : ${typeof n4}`); // -> NaN : number
+------------------------------------------------------------
+let n1 = 10;
+let n2 = 10;
+
+console.log(n1); // -> 10
+console.log(n1++); // -> 10
+console.log(n1); // -> 11
+
+console.log(n2); // -> 10
+console.log(++n2); // -> 11
+console.log(n2); // -> 11
+
+let n3 = 20;
+let n4 = 20;
+
+console.log(n3); // -> 20
+console.log(n3--); // -> 20
+console.log(n3); // -> 19
+
+console.log(n4); // -> 20
+console.log(--n4); // -> 19
+console.log(n4); // -> 19
+------------------------------------------------------
+console.log(n1++);
+-----------------------------------------------------
+console.log(n1);
+n1 = n1 + 1;
+----------------------------------------------------
+console.log(++n1);
+----------------------------------------------------
+n1 = n1 + 1;
+console.log(n1);
+--------------------------------------------------
+console.log(0.2 + 0.1);     // 0.30000000000000004
+console.log(0.2 * 0.1);     // 0.020000000000000004
+console.log(0.3 / 0.1);     // 2.9999999999999996
+-------------------------------------------------------
+x += 100;
+x = x + 100;
+let x = 10;
+ 
+x += 2;
+console.log(x); // -> 12
+x -= 4;
+console.log(x); // -> 8
+x *= 3;
+console.log(x); // -> 24
+x /= 6;
+console.log(x); // -> 4
+x **= 3;
+console.log(x); // -> 64
+x %= 10;
+console.log(x); // -> 4
+
+----------------------------------------------------------
+console.log(true && true); // -> true
+console.log(true && false); // -> false
+console.log(false && true); // -> false
+console.log(false && false); // -> false
+--------------------------------------------------------------
+console.log(true || true); // -> true
+console.log(true || false); // -> true
+console.log(false || true); // -> true
+console.log(false || false); // -> false
+----------------------------------------------------------------
+console.log(!true); // -> false
+console.log(!false); // -> true
+---------------------------------------------------------
+const a = false;
+const b = true;
+const c = false;
+const d = true;
+ 
+console.log(a && b && c || d); // -> true
+console.log(a && b && (c || d)); // -> false
+---------------------------------------------------------------
+let nr = 0;
+let year = 1970;
+let name = "Alice";
+let empty = "";
+ 
+console.log(!nr); // -> true
+console.log(!year); // -> false
+console.log(!name); // -> false
+console.log(!empty); // -> true
+ 
+console.log(!!nr); // -> false
+console.log(!!name); // -> true
+-----------------------------------------------------------------
+console.log(true && 1991); // -> 1991
+console.log(false && 1991); // -> false
+console.log(2 && 5); // -> 5
+console.log(0 && 5); // -> 0
+console.log("Alice" && "Bob"); // -> Bob
+console.log("" && "Bob"); // -> empty string
+ 
+ 
+console.log(true || 1991); // -> true
+console.log(false || 1991); // -> 1991
+console.log(2 || 5); // -> 2
+console.log(0 || 5); // -> 5
+console.log("Alice" || "Bob"); // -> Alice
+console.log("" || "Bob"); // -> Bob
+------------------------------------------------------------------
+let x = 0;
+let y = 0;
+console.log(x++ && y++); // -> 0
+console.log(x); // -> 1
+console.log(y); // -> y == 0
+----------------------------------------------------------------
+let a = true;
+console.log(a); // -> true
+a &&= false;
+console.log(a); // -> false
+--------------------------------------------------------------
+let b = false;
+console.log(b); // -> false
+b ||= true;
+console.log(b); // -> true
+---------------------------------------------------------------
+console.log(2 * 3 + 1);
+console.log(2 ** 4);
+console.log(5 * 1); 
+console.log(8 ** 2 - 5 ** 2);
+--------------------------------------------------------------
+console.log(4 * 5 === 20);
+console.log(6 * 5 == "30");
+console.log(-17 < 0);  
+console.log(25 > 1);  
+console.log(2 + 2 * 2 != 4);
+-------------------------------------------------------------
+
+console.log(true || false);  
+console.log(false || ! false);  
+console.log(false || false || true);  
+console.log(true || false && false && true);
+-----------------------------------------------------------------
+let greetings = "Hi";
+console.log(greetings + " " + "Alice"); // -> Hi Alice
+ 
+let sentence = "Happy New Year ";
+let newSentence = sentence + 10191;
+ 
+console.log(newSentence); // -> Happy New Year 10191
+console.log(typeof newSentence); // -> string
+---------------------------------------------------------------
+let sentence = "Happy New ";
+sentence += "Year ";
+sentence += 10191;
+console.log(sentence); // -> Happy New Year 10191
+------------------------------------------------------------------
+console.log(10 === 5); // -> false
+console.log(10 === 10); // -> true
+console.log(10 === 10n); // -> false
+console.log(10 === "10"); // -> false
+console.log("10" === "10"); // -> true
+console.log("Alice" === "Bob"); // -> false
+console.log(0 === false); // -> false
+console.log(undefined === false); // -> false
+------------------------------------------------------------------
+console.log(10 == 5); // -> false
+console.log(10 == 10); // -> true
+console.log(10 == 10n); // -> true
+console.log(10 == "10"); // -> true
+console.log("10" == "10"); // -> true
+console.log("Alice" == "Bob"); // -> false
+console.log(0 == false); // -> true
+console.log(undefined == false); // -> false
+console.log(NaN == NaN); // -> false
+------------------------------------------------------------------------
+console.log(10 !== 5); // -> true
+console.log(10 !== 10); // -> false
+console.log(10 !== 10n); // -> true
+console.log(10 !== "10"); // -> true
+console.log("10" !== "10"); // -> false
+console.log("Alice" !== "Bob"); // -> true
+console.log(0 !== false); // -> true
+console.log(undefined !== false); // -> true
+console.log(10 != 5); // -> true
+console.log(10 != 10); // -> false
+console.log(10 != 10n); // -> false
+console.log(10 != "10"); // -> false
+console.log("10" != "10"); // -> false
+console.log("Alice" != "Bob"); // -> true
+console.log(0 !=  false); // -> false
+console.log(undefined != false); // -> true
+console.log(NaN != NaN); // -> true
+-------------------------------------------------------------------
+console.log(10 > 100); // -> false
+console.log(101 > 100); // -> true
+console.log(101 > "100"); // -> true
+ 
+console.log(101 < 100); // -> false
+console.log(100n < 102); // -> true
+console.log("10" < 20n); // -> true
+ 
+console.log(101 <= 100); // -> false
+console.log(10 >= 10n); // -> true
+console.log("10" <=  20); // -> true
+-----------------------------------------------------------------------
+console.log("b" > "a"); // -> true
+console.log("a" > "B"); // -> true
+console.log("B" > "A"); // -> true
+console.log("A" > "4"); // -> true
+console.log("4" > "1"); // -> true
+ 
+console.log("ab1" < "ab4"); // -> true
+console.log("ab4" < "abA"); // -> true
+console.log("abB" < "aba"); // -> true
+console.log("aba" < "abb"); // -> true
+ 
+console.log("ab" < "ab4"); // -> true
+--------------------------------------------------------------------
+let year = 10191;
+console.log(typeof year); // -> number
+console.log(typeof false); // -> boolean
+
+let names = ["Patti", "Bob"];
+let name = names[0];
+console.log(names instanceof Array); // -> true
+console.log(name instanceof Array); // -> false
+
+
+let user = {
+     name: "Alice",
+     age: 38
+};
+console.log(user.age); // -> 38
+delete user.age;
+console.log(user.age); // -> undefined
+
+
+console.log(true ? "Alice" : "Bob"); // -> Alice
+console.log(false ? "Alice" : "Bob"); // -> Bob
+
+
+let name = 1 > 2 ? "Alice" : "Bob";
+console.log(name); // -> Bob
+
+----------------------------------------------------------------
+let a = 10;
+let b = a + 2 * 3;
+let c = a + 2  < 20 - 15;
+console.log(a); // -> 10
+console.log(b); // -> 16
+console.log(c); // -> false
+---------------------------------------------------------------
+let a, b;
+b = (a = (20 + 20) * 2) > (3 ** 2);
+console.log(a); // -> 60
+console.log(b); // -> true
+---------------------------------------------------------------
+
+
